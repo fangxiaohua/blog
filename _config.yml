@@ -9,7 +9,7 @@
 title: fxh
 brief-intro: Front-end Dev Engineer
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://fangxiaohua.github.io" # the base hostname & protocol for your site
+url: "http://fangxiaohua.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
