@@ -5,13 +5,20 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: fxh
-brief-intro: Front-end Dev Engineer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fangxiaohua.github.io" # the base hostname & protocol for your site
 
+# Sys settings
+# plugins:     ./_plugins
+destination: ./_site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://fangxiaohua.github.io/blog" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
+port: 4000
+
+# Site settings
+web_title: fxh
+web_desc: Front-end Dev Engineer
+welcome_title: Welcome to fxh Blog!
+welcome_desc: 我的码农之旅
 
 # other links
 twitter_username: gaohaoyang126
@@ -45,8 +52,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# port
-# port: 1234
 
 # url
 category_dir: category/
