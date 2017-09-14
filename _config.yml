@@ -7,12 +7,18 @@
 
 
 # Sys settings
-# plugins:     ./_plugins
+plugins:     ./_plugins
 destination: ./_site
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://fangxiaohua.github.io/blog" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 port: 4000
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
 
 # Site settings
 web_title: fxh
@@ -33,10 +39,13 @@ dribbble_username:
 description_footer: 本站记录我前端之旅的沿途风景！
 
 # comments
-# two ways to comment, only choose one, and use your own short name
-# 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: gaohaoyang
+# 使用github Gitalk
+GitClientID: 2ce31ef2107e95c828a0
+GitClientSecret: 6416a8ef02918ece6f10acfd30efc9429bd16411
+GitRepo: blog
+GitOwner: fangxiaohua
+
+
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
@@ -57,9 +66,9 @@ kramdown:
 category_dir: category/
 tag_dir: tag/
 
-# excerpt
-excerpt_separator: "\n\n\n\n"
+
 
 # paginate
 gems: [jekyll-paginate]
 paginate: 6
+paginate_path: "blog/page:num"

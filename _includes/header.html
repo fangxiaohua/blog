@@ -14,8 +14,8 @@
                         <i class="fa fa-home"></i>Home
                     </a>
                 </li>
-
-                {% for my_page in site.pages %}
+                <!--‘site.pages’的子集，存储以‘.html’结尾的部分-->
+                {% for my_page in site.html_pages %}
                     {% if my_page.type == 'page' %}
                     <li>
                         {% if my_page.url == page.url %}
