@@ -7,7 +7,7 @@
 
 
 # Sys settings
-plugins:     ./_plugins
+#plugins:     ./_plugins
 destination: ./_site
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://fangxiaohua.github.io/blog" # the base hostname & protocol for your site
