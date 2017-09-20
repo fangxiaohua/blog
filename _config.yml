@@ -22,7 +22,7 @@ excerpt_separator: "\n\n\n\n"
 
 # Site settings
 web_title: fxh
-web_desc: Front-end Dev Engineer
+web_desc: 我的码农之旅
 welcome_title: Welcome to fxh Blog!
 welcome_desc: 我的码农之旅
 
@@ -50,8 +50,7 @@ GitOwner: fangxiaohua
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+baidu_tongji_id: 68f839df5025eb2aa098dbfe90d04e71
 
 # Build settings
 markdown: kramdown
