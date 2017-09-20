@@ -34,6 +34,32 @@
         <i class="fa fa-arrow-up"></i>
     </a>
 </div>
+{% if site.baidu_tongji_id %}
+<script>
+    // 百度统计代码
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?{{site.baidu_tongji_id}}";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+{% endif %}
+
+{% if page.mathjax %}
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
+    "HTML-CSS": {
+      linebreaks: { automatic: true, width: "container" }
+    }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+{% endif %}
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script src="{{ "/js/lib/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/lib/jquery3-min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
