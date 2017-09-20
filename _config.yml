@@ -17,7 +17,7 @@ sass:
     sass_dir: _sass
     style: compressed
 
-# excerpt
+# excerpt 摘要标记
 excerpt_separator: "\n\n\n\n"
 
 # Site settings
@@ -38,8 +38,7 @@ dribbble_username:
 
 description_footer: 本站记录我前端之旅的沿途风景！
 
-# comments
-# 使用github Gitalk
+# comments 使用github Gitalk
 GitClientID: 2ce31ef2107e95c828a0
 GitClientSecret: 6416a8ef02918ece6f10acfd30efc9429bd16411
 GitRepo: blog
