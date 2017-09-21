@@ -91,6 +91,7 @@ layout: default
             </div>
 
             <!-- 其他div框放到这里 -->
+            {% if site.related_posts.size > 0 %}
             <div class="side content">
                 <div>
                     <i class="fa fa-pencil-square-o"></i>
@@ -101,8 +102,9 @@ layout: default
                     {% for post in site.related_posts offset: 0 limit: 5  %}
                     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
-                </ul>c5
+                </ul>
             </div>
+            {% endif %}
         </div>
     </div>
 </div>
