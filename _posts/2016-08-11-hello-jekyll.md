@@ -19,7 +19,7 @@ author: fangxiaohua
 
 
 本blog是使用[jekyll](http://jekyll.com.cn/)+[github pages](https://pages.github.com/) 搭建的, 部署在[github](https://github.com/fangxiaohua/blog)上
-,主题使用的是[HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io)
+,主题是基于[HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io)修改的
 
 ## 搭建
 主要环节有：安装[Ruby](http://www.ruby-lang.org/zh_cn/documentation/installation/)，安装RubyGems，安装jekyll，套用[HyG](https://github.com/Gaohaoyang/gaohaoyang.github.io)主题，然后根据自己的需要修改_config.yml一些配置
