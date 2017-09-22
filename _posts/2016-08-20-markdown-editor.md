@@ -39,12 +39,39 @@ author: fangxiaohua
 
 ### 三级标题
 ```
-![](https://raw.githubusercontent.com/fangxiaohua/blog/gh-pages/images/post/markdown-editor/title.png) 
+
+![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/title.png)
+ 
 总共六级标题，`建议在井号后加一个空格`，这是最标准的 Markdown 语法
 
+### 列表
+`无序列表`只需要在文字前加上 `- `或` *` 
+
+![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/list_ul.png)
 
 
 
+`有序列表`则直接在文字前加 `1.` `2.` `3.`
+
+![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/list_ol.png)
+
+
+符号要和文字之间加上一个字符的`空格`
+
+### 引用
+
+只需要在文本前加入 `>` 这种尖括号（大于号）即可
+
+![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/quote.png)
+
+### 图片与链接
+
+插入链接与插入图片的语法很像，
+区别在一个 !号
+插入图片的地址需要图床
+使用 [test](http://example.net "optional title") 来标记普通链接。
+使用 ![img](http://example.net/img.png "optional title") 来标记图片。
+引号内的 title 文字是可选的，链接也可以使用相对路径。
 
 ### 更多 
 [md 中文语法说明](http://wowubuntu.com/markdown/#list)
